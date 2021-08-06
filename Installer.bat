@@ -10,7 +10,7 @@ cd cgl
 echo Downloading file...
 curl https://raw.githubusercontent.com/AvianJay/Cmd-Game-Launcher/main/launcher.bat --output launcher.bat
 curl https://raw.githubusercontent.com/AvianJay/Cmd-Game-Launcher/main/ajgamestore.bat --output ajgamestore.bat
-curl https://raw.githubusercontent.com/AvianJay/Cmd-Game-Launcher/main/ver --output ver
+curl https://raw.githubusercontent.com/AvianJay/Cmd-Game-Launcher/main/ver --output 
 echo Creating Shortcut...
 echo set WshShell = WScript.CreateObject("WScript.Shell") >> findDesktop.vbs
 echo strDesktop = WshShell.SpecialFolders("Desktop") >> findDesktop.vbs
