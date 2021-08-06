@@ -4,7 +4,7 @@ Cmd Game Launcher By AvianJay
 Click <a href="https://github.com/AvianJay/Cmd-Game-Launcher/releases/download/1.0/Installer.bat">here</a> to download installer.
 or
 Run This:
-<pre>curl https://raw.githubusercontent.com/AvianJay/Cmd-Game-Launcher/main/Installer.bat --output cglinst.bat & cginst & del cglinst.bat</pre>
+<pre>curl https://raw.githubusercontent.com/AvianJay/Cmd-Game-Launcher/main/Installer.bat --output cglinst.bat & cglinst & del cglinst.bat</pre>
 on cmd
 # saver
 command usage:
