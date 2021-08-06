@@ -4,8 +4,8 @@ if exist "%USERPROFILE%\cgl\games" (cd %USERPROFILE%\cgl\ & goto nogame) else (g
 
 :ask
 set /p ans="What Do You Want To Do?(Launch A Game=l/Download A Game=dg):"
-if %ans%=l (goto launch)
-if %ans%=dg (start %USERPROFILE%\cgl\ajgamestore.bat & exit)
+if %ans%==l (goto launch)
+if %ans%==dg (start %USERPROFILE%\cgl\ajgamestore.bat & exit)
 echo Please type l or dg.
 goto ask
 
